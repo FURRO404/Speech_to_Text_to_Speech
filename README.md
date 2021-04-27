@@ -1,7 +1,7 @@
 # Speech_to_Text_to_Speech
 **Aka:** STTTS 
 
-Steps:
+**Steps:**
 - Speak to it,
 - It listens and makes sense of what you said,
 - Automatically saves it as a string, then converts it to an mp3 file,
