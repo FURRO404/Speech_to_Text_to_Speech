@@ -1,5 +1,5 @@
 #===========FURRO404===========#
-#TTS
+#STTTS
 import speech_recognition as sr
 from gtts import gTTS
 from playsound import playsound
@@ -41,13 +41,13 @@ while True:
             print("You said:", text, "\n")
 
             if text == "change language":
-                Language_Selector()
+                Language_Selector()     #Change Language
                 continue
 
             sentence = gTTS(text, lang = lang2)
             sentence = gTTS(text, lang = lang2)
-            sentence.save('My_file.mp3')
-            playsound('My_file.mp3')        #Text to Speech
+            sentence.save('My_file.mp3')        #Text to Speech
+            playsound('My_file.mp3')
             os.remove('My_file.mp3')
             
         except:
